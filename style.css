@@ -1,7 +1,7 @@
 /*
 
 Theme Name: S&P
-Author: Paul Kotula 
+Author: Paul Kotula
 Author URI: http://pkotula.com/
 Description: Custom Wordpress theme for S&P
 Version: 0.0.1
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: s&p
 
 */
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&subset=cyrillic-ext');
 html {
 	position: relative;
 	min-height: 100%;
@@ -268,8 +268,8 @@ p.copyright{
 	bottom:calc(-1em - 20px - 4px - 2px - 2px - 2px);
 	display:inline-block;
 	background:#dc6976;
-	margin-left: auto; 
-	margin-right: auto; 
+	margin-left: auto;
+	margin-right: auto;
 	transition: all 0.2s ease-in-out;
 	left:50%;
 	transform: translate(-50%, 0);
@@ -317,7 +317,7 @@ p.copyright{
 	.wbl-navbar-header{;background: white;}
 	.hide-tablet{display:none!important;}
 }
-@media (min-width: 768px) and (max-width: 991px){ 
+@media (min-width: 768px) and (max-width: 991px){
 	.show-tablet{display:block;}
 	.wbl-socials{display:inline-block;margin-left:20px;}
 	.flex-container{width: 100%;justify-content: space-between;}
@@ -332,10 +332,10 @@ p.copyright{
 	.wbl-navbar-header .logo img{display:block;margin:10px auto;}
 	.navbar-nav{float:none;}
 }
-@media (max-width: 991px){ 
+@media (max-width: 991px){
 	body {padding-top:156px;}
 	.container-fluid{padding:0;}
 }
-@media (min-width: 992px) and (max-width: 1109px){ 
+@media (min-width: 992px) and (max-width: 1109px){
 	.logo{left:10px;}
 }
